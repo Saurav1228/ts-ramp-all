@@ -41,5 +41,5 @@ class Hero extends Character {
 }
 
 const opal = new Hero(10,20,30);
-console.log(opal.getHeroId());
+console.log(opal.getHunger());
 

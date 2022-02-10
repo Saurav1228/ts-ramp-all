@@ -20,9 +20,6 @@ class Player {
 
 //Inheritance
 const mario = new Player;
-mario.setHealth(-10);
-mario.getHealth();
+mario.setHealth(80);
 
-console.log(`${mario.getHealth()}`);
-
-
+console.log(mario.getHealth());

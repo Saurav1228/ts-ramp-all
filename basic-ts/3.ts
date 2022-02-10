@@ -1,5 +1,5 @@
 interface Student {
-    _random: 'randomhs',
+    // _random: 'randomhs',
     id: number
 }
 
@@ -7,7 +7,7 @@ const printStudentId = (student: Student) => {
     console.log(student.id);
 }
 
-let student = { _random: 'random', id : 200}
+let student = {  id : 200}
 printStudentId(student);
 
 
