@@ -1,6 +1,6 @@
 interface Student {
     // _random: 'randomhs',
-    id: number
+    id: number;
 }
 
 const printStudentId = (student: Student) => {

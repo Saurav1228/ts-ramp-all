@@ -4,6 +4,7 @@ abstract class Character {
 
     abstract eat(): void 
 }
+
 //interfaces are pure abstract classes
 interface Hero extends Character {
     heroId: number;
